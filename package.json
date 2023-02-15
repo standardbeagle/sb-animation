@@ -1,0 +1,31 @@
+{
+  "name": "@standardbeagle/sb-animation",
+  "version": "1.0.0",
+  "description": "An animation library to drop into websites with a lightweight syntax",
+  "scripts": {
+    "lint": "stylelint '**/*.scss'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/standardbeagle/sb-animation.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "standardbeagle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/standardbeagle/sb-animation/issues"
+  },
+  "homepage": "https://bitbucket.org/standardbeagle/sb-animation#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "stylelint-scss": "^4.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  }
+}

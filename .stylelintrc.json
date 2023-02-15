@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "keyframes-name-pattern": null,
+    "keyframe-block-no-duplicate-selectors": null,
+    "number-max-precision": null
+  }
+}

@@ -1,0 +1,7 @@
+@mixin sb-animate($name, $duration : 0.5s, $timing-function : linear, $iteration : 1) {
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: $iteration;
+  animation-play-state: running;
+  animation-fill-mode: backwards;
+}
